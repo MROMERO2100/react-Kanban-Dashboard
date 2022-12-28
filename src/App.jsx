@@ -1,10 +1,11 @@
-import './App.css'
+import './App.css';
+import Kanban from './components/kanban/Kanban';
 
 function App() {
-
   return (
-    <div>
-      <h1>Kanban Dashboard</h1>
+    <div style={{ padding: '50px' }}>
+      <h1 style={{ marginBottom: '20px' }}>Kanban Dashboard</h1>
+      <Kanban />
     </div>
   )
 }

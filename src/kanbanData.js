@@ -4,54 +4,38 @@ const kanbanData = [
     {
         id: uuidv4(),
         title: '📝 To DO',
-        task: [
+        tasks: [
             {
                 id: uuidv4(),
-                title: 'Inscribirse al Curso de JavaScript'
+                title: 'Aprender Vue.js'
             },
             {
                 id: uuidv4(),
-                title: 'Inscribirse al Curso de Html'
+                title: 'Aprender Python'
             },
             {
                 id: uuidv4(),
-                title: 'Inscribirse al Curso de React'
+                title: 'Aprender PHP'
             }
         ]
     },
     {
         id: uuidv4(),
         title: '📊 In progress',
-        task: [
+        tasks: [
             {
                 id: uuidv4(),
-                title: 'Inscribirse al Curso de JavaScript'
-            },
-            {
-                id: uuidv4(),
-                title: 'Inscribirse al Curso de Html'
-            },
-            {
-                id: uuidv4(),
-                title: 'Inscribirse al Curso de React'
+                title: 'Profundizando sobre React'
             }
         ]
     },
     {
         id: uuidv4(),
         title: '✅ Done',
-        task: [
+        tasks: [
             {
                 id: uuidv4(),
-                title: 'Inscribirse al Curso de JavaScript'
-            },
-            {
-                id: uuidv4(),
-                title: 'Inscribirse al Curso de Html'
-            },
-            {
-                id: uuidv4(),
-                title: 'Inscribirse al Curso de React'
+                title: 'Curso de JavaScript'
             }
         ]
     }    
